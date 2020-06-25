@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/commons.styles.css">
+    <link rel="stylesheet" href="./css/codigos-navio.styles.css">
+    <script src="./js/codigo-navio.js"></script>
+    <title>Grupo-4</title>
+</head>
+<body>
+  <div class="logo">
+    <a href="https://www.instagram.com/despluguese/"><img src="../img/logo_escrita.png" alt="Logo Desplugue-se"></a>
+  </div>
+  <div class="paper">
+    <div class="slider-wrapper">
+      <button class="button next" onclick="goToPreviousSlide()">❮</button>
+      <div class="slider">
+          <img src="./img/tabela-1.png" alt="" class="slide active" />
+          <img src="./img/tabela-2.png" alt="" class="slide hidden" />
+          <img src="./img/tabela-3.png" alt="" class="slide hidden" />
+        </div>
+      <button class="button previous" onclick="goToNextSlide()">❯</button>
+    </div>
+    <div class="content-wrapper">
+      <h2>Códigos:</h2>
+      <p>POLGDW</p>
+      <p>TLOKGA</p>
+      <p>NHSXDC</p>
+    </div>
+  </div>
+  <style>
+    body {
+    background-image: url('../img/background/fundo7.png');
+    background-size: cover;
+    background-color: #056A83;
+    font: 14px sans-serif;
+    padding: 15px;
+  }
+
+  .next, .previous {
+    background-color: #bd2e35;
+  }
+  </style>
+</body>
+</html>

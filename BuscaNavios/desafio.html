@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Indie+Flower&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/commons.styles.css">
+    <link rel="stylesheet" href="./css/busca-navios.styles.css">
+    <script src="./js/busca-navios.js"></script>
+    <title>Encontre os Navios</title>
+</head>
+<body>
+    <div class="logo">
+        <a href="https://www.instagram.com/despluguese/"><img src="../img/logo_escrita.png" alt="Logo Desplugue-se"></a>
+    </div>
+    <div class="paper">
+        <h1 class="title">Encontre os Navios</h1>
+        <div class="content">
+            <div class="wrapper">
+                <p></p>
+                <p class="legend-column">A</p>
+                <p class="legend-column">B</p>
+                <p class="legend-column">C</p>
+                <p class="legend-column">D</p>
+                <p class="legend-column">E</p>
+                <p class="legend-row">1</p>
+                <button class="button empty" onclick="waterSelected()"></button>
+                <button class="button empty" onclick="waterSelected()"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-3', 1)"></button>
+                <button class="button empty" onclick="waterSelected()"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-1', '1B')"></button>
+                <p class="legend-row">2</p>
+                <button class="button empty" onclick="shipSelected('ship-size-2', '2C')"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-2', '1C')"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-3', 2)"></button>
+                <button class="button empty" onclick="waterSelected()"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-1', 4)"></button>
+                <p class="legend-row">3</p>
+                <button class="button empty" onclick="waterSelected()"></button>
+                <button class="button empty" onclick="waterSelected()"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-3', 3)"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-2', '2D')""></button>
+                <button class="button empty" onclick="waterSelected()"></button>
+                <p class="legend-row">4</p>
+                <button class="button empty" onclick="waterSelected()"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-1', '1E')"></button>
+                <button class="button empty" onclick="waterSelected()"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-2', '1D')"></button>
+                <button class="button empty" onclick="waterSelected()"></button>
+                <p class="legend-row">5</p>
+                <button class="button empty" onclick="shipSelected('ship-size-1', '1A')"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-4', '4A')"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-4', '3A')"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-4', '2A')"></button>
+                <button class="button empty" onclick="shipSelected('ship-size-4', '1A')"></button>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        body {
+            background-image: url('../img/background/fundo.png');
+            background-size: cover;
+            background-color: #056A83;
+            color: #FFF;
+            font: 14px sans-serif;
+            padding: 15px;
+        }
+    </style>
+</body>
+</html>
